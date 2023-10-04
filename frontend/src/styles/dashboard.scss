@@ -1,0 +1,32 @@
+.div {
+    max-width: 500px;
+    width: 40%;
+    /* Set the width to 50% to make them take up half of the available width */
+    // height: 300px;
+    /* Set the height as needed */
+    // display: flex;
+    // justify-content: flex-start    
+}
+
+canvas {
+    padding: 5%;
+}
+
+.feedback {
+    width: 80%;
+    display: inline-block;
+}
+
+.fullDiv {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+li {
+    padding: 1%;
+}
+
+h2 {
+    padding-top: 5%;
+}

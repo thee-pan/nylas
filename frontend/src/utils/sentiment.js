@@ -3,7 +3,7 @@ async function query(data) {
     "https://api-inference.huggingface.co/models/cardiffnlp/twitter-roberta-base-sentiment-latest",
     {
       headers: {
-        Authorization: `Bearer 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`,
+        Authorization: `Bearer ${REACT_AI_API_KEY}`,
       },
       method: "POST",
       body: JSON.stringify(data),
